@@ -82,86 +82,40 @@
       </p>   
 <h3 id="Introduction">Introduction</h3>
        <pre>
-            “Active Learning (Angluin, 1988, Cohn et al., 1994) is a paradigm where a concept is learnt by an
-intelligent machine through the interaction of an oracle with the machine system, over a sequence of
-learning epochs. A distinctive component in an active system is the querying strategy, used to sample
-candidate training instances from a pool and evaluate them for informativeness, i.e., their potential
-to improve the classification model. Various strategies have been proposed including; Query by
-Committee (Seung et al., 1992), Monte Carlo estimation (Roy and McCallum, 2001), uncertainty
-sampling (Lewis and Gale, 1994) and version space reduction (margin sampling) (Tong and Koller,
-2001). Irrespective of how the most informative pattern instances are chosen at each epoch they are
-presented for labeling, to a machine (database) or human oracle that has knowledge of the class
-labels. After adding the newly labeled instances to the current training set, a revised model is
-subsequently induced. A goal of this process is to achieve an efficient, incremental advancement of
-learning at each epoch. The process is continued until some stopping criterion has been met, such as
-reaching a stage where information from the selected instances is contrary to the model, causing the
-classifier confidence to drop, as in Vlachos (2008).”
+          In today’s world, large amount of data is collected every day through technology, businesses, scientific research and everyday activities. However, raw
+data on its own does not always provide meaningful information. By analysing this data, it is possible to identify hidden patterns, relationships and trends that may
+not be immediately obvious. These discoveries can help us better understand real world situations and support more informed decision making. 
+          Mathematics plays an important role in this process through techniques such as statistics, correlation, regression and machine learning. These methods allow 
+large datasets to be organised, analysed and used to make predictions. This article explores how mathematical and data science techniques can reveal patterns within data, 
+how these pattens can be used to predict trends and the limitations that may affect the reliability of these predictions.
        </pre>  
 
 <h3 id="Analysis and Discusion">Analysis and Discussion</h3>
-          
-          Table 1: Data on cost and lifespan of bridge repairs
-      <table>
-      <tr>
-           <th>£ Cost of repairs</th>
-           <th>Lifespan of repairs (years)</th>
-      </tr>
-      <tr>
-           <td>0.7 m</td>
-           <td>2</td>
-      </tr> 
-      <tr>
-           <td>3.3 m</td>
-           <td>4</td>
-      </tr>
-      <tr>
-           <td>2.6 m</td>
-           <td>5</td>
-      </tr>
-      <tr>
-           <td>17.4 m</td>
-           <td>7</td>
-      </tr>
-      <tr>
-           <td>8.8 m</td>
-           <td>9</td>
-      </tr>    
-      </table>   
+Discovering patterns in data
+          One of the main purposes of data science is to identify patterns and trends within large datasets. Pattern recognition involves analysing information to find similarities, 
+          relationships and changes that may not be immediately visible when looking at raw data. This can be particularly useful when studying information collected over 
+          long periods of time. For example, Bautista-Romero et al. (2025) explored how data science techniques could be used to recognise patterns in agricultural time-series 
+          data to help understand sugarcane sucrose yield. Their research demonstrates how analysing historical data can reveal trends and relationships between different variables. 
+          Therefore, pattern recognition is an important part of data science because it transforms large amounts of raw information into meaningful knowledge.
+Understanding relationships within data 
+          Once patterns have been identified, mathematical techniques can help explain relationships between different variables. One example is clustering, which groups similar data points 
+          together based on shared characteristics. Rodriguez et al. (2019) compared different clustering algorithms to investigate how effectively they identify groups within datasets. Another 
+          important technique is correlation and regression analysis, which can be used to investigate relationships between variables and understand how changes in one variable may be associated 
+          with changes in another. These methods demonstrate how mathematics helps researchers move beyond simply collecting data towards understanding what the information may reveal. However, 
+          correlation does not necessarily mean that one variable causes change in another.
+From patterns to predictions 
+          As well as understanding existing patterns, data science can use them to help predict possible future outcomes. Machine learning techniques analyse historical information to identify 
+          patterns that can be applied to new data. For example, Chahal et al. (2024) developed a predictive analytics approach using smart-city data, demonstrating how large datasets can be processed 
+          and analysed to support predictions. Similarly, machine learning methods can be used in different areas, including scientific research, business and technology. These applications show how 
+          identifying patterns can support decision-making and help people prepare for possible future situations. Nevertheless, predictions are not guaranteed to be accurate, as they depend on the quality 
+          and suitability of the data used.
+Limitations and reliability 
+          Although data science offers many benefits, it is important to consider its limitations. The reliability of results can be affected by poor-quality data, missing information and bias within datasets. 
+          Andaur Navarro et al. (2021) carried out a systematic review of machine-learning prediction studies and found that many had a high risk of bias. Their findings also highlighted problems such as 
+          inadequate handling of missing data and overfitting. Overfitting occurs when a model learns the training data too closely and does not perform as well when given new information. This demonstrates that 
+          finding patterns does not automatically mean that predictions will be reliable. Therefore, data analysis methods must be carefully selected, tested and evaluated to ensure that conclusions are meaningful 
+          and trustworthy.
 
-     
-<head>
-<title>MathML Example</title>
-</head>
-<body>
-<h1>Quadratic Formula</h1>
-<p>The quadratic formula is given by:.</p>
-<!--MathML representations of the quadratic formula-->
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-<msup><mi>x</mi><mn>2</mn></msup>
-<mo>+</mo><mi>4</mi><mo>&InvisibleTimes;</mo><mi>x</mi>
-<mo>+</mo><mi>4</mi>
-<mo>=</mo>
-<mi>0</mi>
-</body>
-
-     <head>
-<title>Change Button Colour</title>
-</head>
-<body>
-<button id="colorButton">Click me to change colour</button>
-<script>
-// Get a reference to the button element
-var button = document.getElementById("colorButton");
-// Function to change the button color
-function changeColor() {
-// Generate a random color (hexadecimal)
-var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
-// Set the button's background color to the random color
-button.style.backgroundColor = randomColor;
-}
-// Add a click event listener to the button
-button.addEventListener("click", changeColor);
 </script>
    
            
